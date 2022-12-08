@@ -1,0 +1,186 @@
+
+
+/* tour area */
+.area-tours{
+    height: 100%;
+    width: 100%;  
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+}
+.toursPage{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    overflow: hidden;
+}
+.carousel-inner{
+    height: 100%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        overflow: hidden;
+}
+@media (min-width: 100px) {
+    
+        Tabs {
+                display: none;
+            }
+        }
+
+.tour-tabs{
+        overflow: hidden;
+        display: flex;
+}
+
+.safari_blue{
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    overflow-y: scroll;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.content .list{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(191, 189, 246);
+    width: 100%;
+    flex-wrap: wrap;
+    border-radius: 0 0 .5rem 0;
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+}
+
+.content .list label{
+    height: 100%;
+    /* background: red; */
+    font-size: 1.2rem;
+    border-radius: 0rem 0rem 0rem .5rem;
+    line-height: 1rem;
+    cursor: pointer;
+    color: #333;
+    font-weight: 500;
+    padding-left: 1rem;
+    padding-top: .9rem;
+    z-index: 2;
+    transition: all 0.4s ease;
+}
+
+/* 
+#Safari_Blue:checked ~ .list .Safari_Blue,
+#stone_town:checked ~ .list .stone_town,
+#jozani_forest:checked ~ .list .jozani_forest,
+#space_tour:checked ~ .list .space_tour,
+#mnemba_island:checked ~ .list .mnemba_island,
+#kizimkazi_dolphin:checked ~ .list .kizimkazi_dolphin,
+#nakupenda_sandbank:checked ~ .list .nakupenda_sandbank,
+#prisone_island:checked ~ .list .prisone_island{
+ color: #fff;
+}
+
+.content .list label:hover{
+    color: #d7d7e0;
+}
+.content .indicator{
+    position: absolute;
+    height: 3rem;
+    width: 98%;
+    top: 1;
+    left: 0;
+    background: #d7d7e0;
+    border-radius: 0 .8rem .8rem 0;
+    transition: all 0.4s ease;
+    align-items: center;
+}
+
+#Safari_Blue:checked ~ .list .indicator{
+    top: 0;
+}
+#stone_town:checked ~ .list .indicator {
+    top: 3rem;
+}
+#jozani_forest:checked ~ .list .indicator {
+    top: 6rem;
+}
+#space_tour:checked ~ .list .indicator {
+    top: 9rem;
+}
+#mnemba_island:checked ~ .list .indicator {
+    top: 12rem;
+}
+#kizimkazi_dolphin:checked ~ .list .indicator {
+    top: 15rem;
+}
+#nakupenda_sandbank:checked ~ .list .indicator {
+    top: 18rem;
+}
+#prisone_island:checked ~ .list .indicator {
+    top: 21rem;
+}
+ input{
+    display: none;
+}
+
+.content .text-content{
+    width: 90%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 1rem;
+    margin: .5rem;
+    border-radius: .5rem;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./blue1.jpg);
+}
+.content .text-content .text{
+    display: none;
+}
+.content .text-content p{
+    text-align: justify;
+}
+.content .text-content .Safari_Blue{
+    display: block;
+}
+
+
+#Safari_Blue:checked ~ .text-contentt .Safari_Blue,
+#stone_town:checked ~ .text-content .stone_town,
+#jozani_forest:checked ~ .text-content .jozani_forest,
+#space_tour:checked ~  .text-content .space_tour,
+#mnemba_island:checked ~  .text-content .mnemba_island,
+#kizimkazi_dolphin:checked ~  .text-content .kizimkazi_dolphin,
+#nakupenda_sandbank:checked ~  .text-content .nakupenda_sandbank,
+#prisone_island:checked ~  .text-content .prisone_island{
+    display: block;
+}
+
+#stone_town:checked~.text-content .Safari_Blue,
+#jozani_forest:checked~.text-content .Safari_Blue,
+#space_tour:checked~.text-content .Safari_Blue,
+#mnemba_island:checked~.text-content .Safari_Blue,
+#kizimkazi_dolphin:checked~.text-content .Safari_Blue,
+#nakupenda_sandbank:checked~.text-content .Safari_Blue,
+#prisone_island:checked~.text-content .Safari_Blue{
+    display: none;
+} */
+
+
+/* end tour area */

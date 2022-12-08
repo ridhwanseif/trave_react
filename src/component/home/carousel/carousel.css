@@ -1,0 +1,26 @@
+.carousel{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+}
+img{
+    height: 37rem;
+}
+
+
+@media screen and (max-width: 1024px){
+    img{
+        height: 30rem;
+    }
+}
+.animete{
+    color: white;
+}
+.animete p{
+    font-size: 1.3rem;
+}

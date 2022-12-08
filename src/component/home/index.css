@@ -1,0 +1,219 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+.header{
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    overflow: hidden;
+}  
+
+.animete{
+    border-radius: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 20px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ .header h1{
+    padding-top: 100px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin: 18px 0;
+    font-size: 25px;
+    width: 70%;
+    margin: auto;
+}
+.input-group{
+    width: 60%;
+    max-width: 400px;
+    margin: auto;
+    padding: 0.5rem;
+}
+.form-control{
+    border: 0 !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text{
+    width: 150px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    padding-top: 1px !important;
+    padding-bottom: 0 !important;
+    margin: 18px 0;
+} 
+/* distination */
+ .distination{
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 25px;
+    border-radius: 0 0 20px 20px;
+}
+.distination h1{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 100.1px;
+}
+.distination-img img{
+    width: 100%;
+    border-radius: 10px;
+  
+}
+
+ .distination-img{
+    position: relative;
+
+}
+.distination-img img{
+    height: 230px;
+}
+
+.distination-details ul li a {
+    position: relative;
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #2a12c5;
+}
+.distination .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+.distination-details{
+    padding: 4px;
+    text-align: justify;
+}
+.distination-details h4{
+    font-weight: 600;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+.distination-details .fa{
+    margin-right: 5px;  
+}
+.col-md-3 #col3-distination{
+    padding-top: 50px;
+}
+.distination-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+   
+}
+
+.distination a{
+    text-decoration: none;
+    position: relative;
+    text-decoration: none;
+    color: black;
+} 
+
+.distination_bg p{
+    padding: 0rem 1rem 1rem 1rem;
+}
+
+/* gallary */
+ .gallary{
+   
+    height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.gallary p{
+        padding: 1rem 5rem 1rem 5rem;
+}
+.gallary-box img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 35vh;
+}
+
+.gallary-box img:hover{
+    transition: scale(1.1);
+}
+.gallary-box h4{
+    width: 200px;
+    text-align: center;
+    font-weight: 600;
+}
+.gallary-box{
+    border-radius: 10px;
+}
+.g-card{
+    margin-bottom: 1rem;
+}
+
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 30vh;
+}
+.slider figure div{
+    float: left;
+    width: 20%;
+}
+.slider figure img{
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: animate 20s infinite;
+}
+
+@keyframes animate{
+    0%{left:0;}
+    20%{left:-100%;}
+    35%{left:-200%;}
+    
+    92%{left:-300%;}
+    92%{left:-200%;}
+    70%{left:-100%;}
+}
+
+
+
+/* temp */
+/* style="background-image: url('assets/imegs/background/oldest.jpg')" */
